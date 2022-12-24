@@ -1,0 +1,144 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    margin-left : 10px;
+    padding-left : 10px;
+}
+
+
+.navbar-nav{
+    padding-right: 17px;
+}
+
+.btn{
+    color : whitesmoke;
+    border-color: whitesmoke;
+}
+/* .card{
+    padding : 3px;
+    margin : 3px;
+} */
+
+.container{
+    display : flex;
+    flex-wrap : wrap;
+}
+
+.navbar-nav{
+    padding-left: 70rem ;
+    width : 100%;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    padding : 2px;
+    border : 2px solid white;
+    gap : 14px;
+    border-radius: 4px;
+    
+}
+
+body{
+    background-color: rgb(179, 170, 170);
+}
+
+.card-group{
+    display : flex;
+    flex-direction: row;
+}
+
+.card-body{
+    margin : 14px;
+    padding : 3px;
+    /* border : 2px solid black; */
+}
+
+#contact{
+    background: rgb(245, 245, 16);
+    color: rgb(15, 15, 15);
+}
+#contact:hover{
+    background: rgb(26, 26, 21);
+    color: rgb(250, 244, 244);
+}
+
+.btn{
+    border : 2px solid grey;
+    background-color: rgb(70, 65, 65);
+}
+
+
+.flex{
+    margin-top : 8rem;
+    margin-bottom: 2rem;
+    width : 400px;
+}
+
+.card{
+    max-width :fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer--light{
+    margin-top : 2rem;
+}
+
+.widget-about{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top : 6rem;
+    padding : 10px;
+    justify-content: space-between;
+}
+
+
+.img-fluid{
+    border-radius: 20px;
+    width : 80px;
+    height : 60px;
+}
+.contactus{
+    list-style: none;
+    text-decoration: none;
+}
+
+.contactus .number{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.fooditem{
+    color : aliceblue;
+    text-decoration: none;
+    list-style: none;
+}
+
+ 
+@media screen and (max-width : 768px){
+.footer-widget{
+    max-width: fit-content;
+}
+
+.widget-about{
+    display: flex;
+    padding : 30px;
+    justify-content: space-evenly;
+}
+}
+
+@media screen and (max-width : 460px){
+    .footer-widget{
+        max-width: 400px;
+    }
+
+    .widget-about{
+        display: flex;
+        padding : 10px;
+        justify-content: space-evenly;
+    }
+    }
